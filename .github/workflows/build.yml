@@ -3,10 +3,10 @@ name: Build RocketMQ Console on CentOS ARM64
 on:
   push:
     branches:
-      - main  # 触发工作流的分支
+      - master  # 触发工作流的分支
   pull_request:
     branches:
-      - main  # 触发工作流的分支
+      - master  # 触发工作流的分支
 
 jobs:
   build:
