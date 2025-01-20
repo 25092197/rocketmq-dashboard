@@ -7,7 +7,6 @@ on:
   pull_request:
     branches:
       - master  # 触发工作流的分支
-workflow_dispatch: 
 jobs:
   build:
     runs-on: ubuntu-latest  # GitHub Actions 的主机环境
